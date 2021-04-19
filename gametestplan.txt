@@ -1,0 +1,17 @@
+Prove that the Game constructor can construct the right kind of dice and that they can be
+rolled and printed.
+
+    DICE IS CREATED AND PRINTED 
+
+Prove it can input data for, and construct, a Player.
+
+    FROM THE CONSOLE SNIPET ON GAMETEST, TWO PLAYERS ARE created
+
+Construct columns 2 and 7. Place a tower in column 7 and print the column.
+
+    tower placed and column is printed
+
+Place a tower in column 2 and call move() three times to move it to the end. Prove that it is
+pending.
+
+    column status changed to pending

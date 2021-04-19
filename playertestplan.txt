@@ -1,0 +1,8 @@
+-checking if every color works by doing a player with each color
+
+-checking get score by assigning a score of 1 to the player
+
+-checking woncolumn by assigning 3 scores to the score board and
+ checking if player won
+
+-checking an error input on color field for player5

@@ -1,0 +1,14 @@
+--------------------------------------------------------
+        Christopher Dowd and Eyad Esmail
+        CS 6626
+        Mon Mar 29 2021 20:33:46
+----------------------------------------------------------
+Column:4, State:Available, Squares: | T---- | ----- | ----- | ----- | ----- | ----- | -----
+Column:4, State:Available, Squares: | ----- | T---- | ----- | ----- | ----- | ----- | -----
+Column:4, State:Available, Squares: | ----- | -O--- | ----- | ----- | ----- | ----- | -----
+Column:2, State:Available, Squares: | T---- | ----- | -----
+Column:2, State:Available, Squares: | ----B | ----- | -----
+Column:2, State:Available, Squares: | ----B | T---- | -----
+Column:2, State:Pending, Squares: | ----B | ----- | T----
+Column:2, State:Captured, Squares: | ----- | ----- | ----B
+Column default constructor called

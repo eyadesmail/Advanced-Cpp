@@ -1,0 +1,1 @@
+testing 10 times for 4 dice, 2 times for 6 dice, 2 times for 8 dice  

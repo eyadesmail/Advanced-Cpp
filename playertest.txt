@@ -1,0 +1,140 @@
+
+--------------------------------
+-        TEST STARTED          -
+--------------------------------
+// Player created
+Name    Color     Score
+Eyad    yellow     0
+// test player getcolor 
+Color: yellow
+// test won column: 
+// test get score, should be 1
+score: 1
+// test winning, assign 3 scores
+player won
+// print player after testing
+Name    Color     Score
+Eyad    yellow     3
+--------------------------------
+-        TEST COMPLETE         -
+--------------------------------
+
+--------------------------------
+-        TEST STARTED          -
+--------------------------------
+// Player created
+Name    Color     Score
+chris    orange     0
+// test player getcolor 
+Color: orange
+// test won column: 
+// test get score, should be 1
+score: 1
+// test winning, assign 3 scores
+player won
+// print player after testing
+Name    Color     Score
+chris    orange     3
+--------------------------------
+-        TEST COMPLETE         -
+--------------------------------
+
+--------------------------------
+-        TEST STARTED          -
+--------------------------------
+// Player created
+Name    Color     Score
+player3    green      0
+// test player getcolor 
+Color: green 
+// test won column: 
+// test get score, should be 1
+score: 1
+// test winning, assign 3 scores
+player won
+// print player after testing
+Name    Color     Score
+player3    green      3
+--------------------------------
+-        TEST COMPLETE         -
+--------------------------------
+
+--------------------------------
+-        TEST STARTED          -
+--------------------------------
+// Player created
+Name    Color     Score
+player4    blue       0
+// test player getcolor 
+Color: blue  
+// test won column: 
+// test get score, should be 1
+score: 1
+// test winning, assign 3 scores
+player won
+// print player after testing
+Name    Color     Score
+player4    blue       3
+--------------------------------
+-        TEST COMPLETE         -
+--------------------------------
+
+--------------------------------
+-        TEST STARTED          -
+--------------------------------
+// Player created
+Name    Color     Score
+player5    error      0
+// test player getcolor 
+Color: error 
+// test won column: 
+// test get score, should be 1
+score: 1
+// test winning, assign 3 scores
+player won
+// print player after testing
+Name    Color     Score
+player5    error      3
+--------------------------------
+-        TEST COMPLETE         -
+--------------------------------
+
+--------------------------------
+-        TEST STARTED          -
+--------------------------------
+// Player created
+Name    Color     Score
+eyad    orange     0
+// test player getcolor 
+Color: orange
+// test won column: 
+// test get score, should be 1
+score: 1
+// test winning, assign 3 scores
+player won
+// print player after testing
+Name    Color     Score
+eyad    orange     3
+--------------------------------
+-        TEST COMPLETE         -
+--------------------------------
+
+--------------------------------
+-        TEST STARTED          -
+--------------------------------
+// Player created
+Name    Color     Score
+eyad    green      0
+// test player getcolor 
+Color: green 
+// test won column: 
+// test get score, should be 1
+score: 1
+// test winning, assign 3 scores
+player won
+// print player after testing
+Name    Color     Score
+eyad    green      3
+--------------------------------
+-        TEST COMPLETE         -
+--------------------------------

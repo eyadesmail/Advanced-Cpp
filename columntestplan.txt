@@ -1,0 +1,11 @@
+- use start tower to start playing for player with color orange: expected a T in square one
+- move tower one position : expect tower at square two 
+- use stop function : expect T in square 2 to change to O 
+- use tower to start game for player x color blue : expect T in square one
+- use stop to stop game: expect T on square one to change to B
+- start tower again : expect a T in square after B is positioned
+- move tower: expect T to move to next square and state to be pending
+- stop game: expect T to change to B and state to be Captured
+
+
+Results: all true 

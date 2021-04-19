@@ -1,0 +1,51 @@
+--------------------------------
+-        TEST STARTED          -
+--------------------------------
+Dice 1 = 3
+Dice 2 = 4
+Dice 3 = 3
+Dice 4 = 3
+Name    Color     Score
+eyad    orange     0
+Name    Color     Score
+chris    yellow     0
+Column:2, State:Available, Squares: | ----- | ----- | -----
+Column:7, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+------------place tower in col 7 and print---------
+Column:7, State:Available, Squares: | T---- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+------------Place a tower in column 2 and call move() three times---------
+initial column: 
+Column:2, State:Available, Squares: | ----- | ----- | -----
+final column: 
+Column:2, State:Pending, Squares: | ----- | ----- | -----
+
+
+-------------------------------------------
+FROM CONSOLE::
+
+--------------------------------------------------------
+        Christopher Dowd and Eyad Esmail
+        CS 6626
+        Mon Apr 19 2021 15:43:12
+----------------------------------------------------------
+4 Dice created!
+Dice::roll() called
+Enter Player Name: 
+eyad
+Choose a color: 
+o: Orange
+y: Yellow
+g: Green
+b: Blue
+o
+Enter Player Name: 
+chris
+Choose a color: 
+o: Orange
+y: Yellow
+g: Green
+b: Blue
+y
+Dice destructor called
+
+Normal termination.
