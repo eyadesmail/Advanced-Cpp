@@ -50,7 +50,7 @@ void Column::stop(Player* p){
 }
 //-----------------------------------------------------------------------------
 void Column::bust(){
-    //left empty to be implemented later according to p3 instructions
+    content[0] = 0;
 };
 //-----------------------------------------------------------------------------
 // ostream function 

@@ -1,0 +1,63 @@
+
+--------------------------------
+-        TEST STARTED          -
+--------------------------------
+Column:2, State:Available, Squares: | ----- | ----- | -----
+Column:3, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column:4, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:5, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:6, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:7, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:8, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:9, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:10, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:11, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column:12, State:Available, Squares: | ----- | ----- | -----
+==========================================================================
+Column:2, State:Available, Squares: | ----- | ----- | -----
+Column:3, State:Available, Squares: | T---- | ----- | ----- | ----- | -----
+Column:4, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:5, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:6, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:7, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:8, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:9, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:10, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:11, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column:12, State:Available, Squares: | ----- | ----- | -----
+==========================================================================
+Column:2, State:Available, Squares: | ----- | ----- | -----
+Column:3, State:Available, Squares: | ----- | T---- | ----- | ----- | -----
+Column:4, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:5, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:6, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:7, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:8, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:9, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:10, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:11, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column:12, State:Available, Squares: | ----- | ----- | -----
+==========================================================================
+Column:2, State:Available, Squares: | ----- | ----- | -----
+Column:3, State:Available, Squares: | ----- | T---- | ----- | ----- | -----
+Column:4, State:Available, Squares: | T---- | ----- | ----- | ----- | ----- | ----- | -----
+Column:5, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:6, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:7, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:8, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:9, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:10, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:11, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column:12, State:Available, Squares: | ----- | ----- | -----
+==========================================================================
+Column:2, State:Available, Squares: | ----- | ----- | -----
+Column:3, State:Available, Squares: | ----- | ----B | ----- | ----- | -----
+Column:4, State:Available, Squares: | ----B | ----- | ----- | ----- | ----- | ----- | -----
+Column:5, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:6, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:7, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:8, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:9, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:10, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:11, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column:12, State:Available, Squares: | ----- | ----- | -----

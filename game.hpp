@@ -9,13 +9,14 @@
 #include "enums.hpp"
 #include "column.hpp"
 #include "player.hpp"
+#include "board.hpp"
+
 class Game {
 private:
     Dice* diceSet = new Dice(4);
-    Player* p1 = getNewPlayer();
-    Player* p2 = getNewPlayer();
-    Column* c1 = new Column(2);
-    Column* c2 = new Column(7);
+    Player* p = getNewPlayer();
+    Board*  b = new Board();
+
 public:
     Game();
     ~Game(){delete diceSet;};

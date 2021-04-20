@@ -7,28 +7,26 @@
 
 Game::Game(){
     ofstream gamefile;
-    gamefile.open("gametest.txt", ios_base::app);
+    gamefile.open("boardtest.txt", ios_base::app);
     if ( !gamefile.is_open()){ cout << "can not open file" << endl;}
     gamefile << "\n--------------------------------" << endl;
     gamefile << "-        TEST STARTED          -" << endl;
     gamefile << "--------------------------------" << endl;
-    diceSet->print(gamefile);
-    p1->print(gamefile);
-    p2->print(gamefile);
-    c1->print(gamefile);
-    c2->print(gamefile);
-    gamefile << "------------place tower in col 7 and print---------"<< endl;
-    c2->startTower(p1);
-    c2->print(gamefile);
-    gamefile << "------------Place a tower in column 2 and call move() three times---------"<< endl;
-    gamefile << "initial column: "<< endl;
-    c1 -> print(gamefile);
-    c1-> startTower(p1);
-    c1->move();
-    c1->move();
-    c1->move();
-    gamefile << "final column: "<< endl;
-    c1->print(gamefile);
+    diceSet->print(cout);
+    b->print(gamefile);
+    b->startTurn(p);
+    gamefile << "==========================================================================" << endl;
+    b->move(3);
+    b->print(gamefile); 
+    gamefile << "==========================================================================" << endl;
+    b->move(3);
+    b->print(gamefile); 
+    gamefile << "==========================================================================" << endl;
+    b -> move(4);
+    b->print(gamefile); 
+    gamefile << "==========================================================================" << endl;
+    b->stop();
+    b->print(gamefile); 
 }
 
 Player* Game::getNewPlayer(){

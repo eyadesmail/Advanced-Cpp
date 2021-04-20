@@ -25,6 +25,7 @@ public:
     ~Column() { cout <<"Column default constructor called\n"; }   //Destructor
 
     State getState(){return cState;}
+    int* getContent(){return content;}
     void print( ostream& out) const;
     bool move();
     bool startTower(Player* p);

@@ -1,0 +1,5 @@
+Using a player with color blue:
+    start a new tower in column 3 : works fine
+    move the tower in column 3: works as expected
+    start a new tower in column 4: works as expected
+    stop the game: both towers are changed to B in their respective positions
