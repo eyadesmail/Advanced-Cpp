@@ -25,6 +25,7 @@ Game::Game(){
     b -> move(4);
     b->print(gamefile); 
     gamefile << "==========================================================================" << endl;
+    
     b->stop();
     b->print(gamefile); 
 }

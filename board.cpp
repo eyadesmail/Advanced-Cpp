@@ -15,7 +15,7 @@ Board::Board(){
 void Board::startTurn( Player* p) {
     currentPlayer = p;
     towerCounter = 0;
-    for( int n = 0; n < 2 ; n++  ){ 
+    for( int n = 0; n < 3 ; n++  ){ 
         towerColumn[n] = 0; 
     }  //set all tower columns to 0
 }
@@ -23,13 +23,12 @@ void Board::startTurn( Player* p) {
 bool Board::move( int column ){
     State cstate = backBone[column]-> getState();
     bool containsTower = backBone[column]->getContent()[0];
-    if (cstate != available || (towerCounter >= 2 && !containsTower)){
+    if (cstate != available || (towerCounter >= 3 && !containsTower)){
         return false;
     }else {
         //if no tower, create tower
         if (!containsTower){
             backBone[column]->startTower(currentPlayer);
-            
             towerColumn[towerCounter]=column;
             towerCounter++;
         }else{ //if there is tower, move tower
@@ -40,13 +39,17 @@ bool Board::move( int column ){
 }
 //-----------------------------------------------------------------------------
 void Board::stop(){
-    for( int n = 0; n < 2 ; n++  ){ 
-        backBone[towerColumn[n]]->stop(currentPlayer); 
-    }  
+    for( int n = 0; n < 3 ; n++  ){ 
+        if (towerColumn[n] > 2){
+            backBone[towerColumn[n]]->stop(currentPlayer);
+        }
+         
+   }  
+    
 }
 //-----------------------------------------------------------------------------
 void Board::bust() {
-    for( int n = 0; n < 2 ; n++  ){ 
+    for( int n = 0; n < 3 ; n++  ){ 
         backBone[towerColumn[n]]->bust(); 
     }  
 }

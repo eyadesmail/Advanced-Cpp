@@ -12,7 +12,7 @@
 class Board{
 private:
     int towerCounter = 0;
-    int towerColumn[2];
+    int towerColumn[3];
     Column* backBone[13];
     Player* currentPlayer;
 public:
