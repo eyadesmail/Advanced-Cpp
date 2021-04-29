@@ -21,6 +21,7 @@ public:
     ~Dice();     //Destructor
     const int* roll();
     void print( ostream& out) const;
+    int getValue(int n){return diceValue[n];};
 };
 inline ostream& operator << (ostream& out, Dice& d){
     d.print (out);

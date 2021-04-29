@@ -96,7 +96,9 @@ void unitColumn(){
     b.print(cout);
 }
 void unitGame(){
-    Game();
+    Game g =Game();
+    g.oneTurn(g.getPlayer());
+    
 }
 //-----------------------------------------------------------------------------
 int main(int argc, char* argv[]) {

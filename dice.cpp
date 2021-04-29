@@ -31,8 +31,9 @@ const int* Dice::roll() {
 }
 // ostream function 
 void Dice::print(ostream& out) const {
+    char letters[4]={'a','b','c','d'};
     for (int j=1; j <= numDice; j++ ){ // printing dice output 
-        out <<"Dice " <<j <<" = " <<diceValue[j] <<endl;
+        out <<"Dice " <<letters[j-1] <<" = " <<diceValue[j] <<endl;
     }
 }
 
