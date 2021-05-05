@@ -21,37 +21,32 @@ void Board::startTurn( Player* p) {
 }
 //-----------------------------------------------------------------------------
 bool Board::move( int column ){
-    State cstate = backBone[column]-> getState();
     bool containsTower = backBone[column]->getContent()[0];
-    if (cstate != available || (towerCounter >= 3 && !containsTower)){
-        return false;
-    }else {
+    cout << "contains tower: " << containsTower << endl;
+    if (containsTower){ return backBone[column]->move();} 
         //if no tower, create tower
-        if (!containsTower){
-            backBone[column]->startTower(currentPlayer);
-            towerColumn[towerCounter]=column;
-            towerCounter++;
-        }else{ //if there is tower, move tower
-            backBone[column]->move();
-        }
-        return true;
+    if (towerCounter >= 3 ){
+        return false;
     }
+    backBone[column]->startTower(currentPlayer);
+    towerColumn[towerCounter++]=column;
+    return true;
 }
 //-----------------------------------------------------------------------------
 void Board::stop(){
     for( int n = 0; n < 3 ; n++  ){ 
-        if (towerColumn[n] > 2){
+        if (towerColumn[n] > 1){
             backBone[towerColumn[n]]->stop(currentPlayer);
+            currentPlayer -> wonColumn(towerColumn[n]);
         }
-         
    }  
-    
 }
 //-----------------------------------------------------------------------------
 void Board::bust() {
-    for( int n = 0; n < 3 ; n++  ){ 
-        backBone[towerColumn[n]]->bust(); 
-    }  
+    for( int n = 0; n < towerCounter ; n++  ){ 
+         backBone[towerColumn[n]]->bust(); 
+     }  
+     towerCounter = 0;
 }
 //-----------------------------------------------------------------------------
 void Board::print(ostream &out) const {

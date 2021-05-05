@@ -1,0 +1,17 @@
+=================================== TEST ONE =============================================
+    - tests how the game responds to all correct values
+    - dice rolled 3 times on column 2 and 12
+    - stop is called
+    - column 2 and 12 are captured and towers are changed to colored tiles of player 
+=================================== TEST TWO =============================================
+    - tests how game responds to invalid input to color, dice combo, menu choice
+    - game stays in loop until user chooses a correct value
+=================================== TEST THREE ===========================================
+    - tests going bust
+    - after the 4th roll, towers are removed, columns are set to available and game ends.
+=================================== TEST FOUR ============================================
+    - tests calling one move and stopping
+    - game ends with towers in correct position and turning into player's color 
+=================================== TEST FIVE ============================================
+    - tests resign
+    - game ends.

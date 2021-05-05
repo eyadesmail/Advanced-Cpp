@@ -8,34 +8,29 @@
 //startTower function to place a new tower
 bool Column::startTower(Player* p){
     colorEnum pcolor = p -> getColor();
-    if(cState == captured){ 
-        return false;
-    }else if (content[white] == 0 && content[pcolor]==0){
-        content[white] = 1;
-        return true;
+    if(cState == captured){return false;}
+    if (content[pcolor]==0){
+        move();
     }else{
         content[white] = content[pcolor] + 1;
-        if (content[white] == mySize){
-            cState = pending;
-        }
-        return true;
     }
+    if (content[white] == mySize){
+        cState = pending;    
+    }
+    return true;
 }
+
 //-----------------------------------------------------------------------------
 // move function to advance the tower one square in the column
 bool Column::move(){
-    if (cState == captured){
-        return false;
-    }
-    if (content[white] == 0){
-        cout << "No Tower to move. Start Tower First."<< endl;
-        return false;
-    }
-    ++content[white];
-    if (content[white] == mySize){
+    if (cState != available){return false;}
+    if (content[white] < mySize){
+        ++content[white];
+    } 
+    if(content[white] == mySize){
         cState = pending;
-        return true;
-    }else {return true;}
+    }
+    return true;
 }
 //-----------------------------------------------------------------------------
 // stop function to end a turn
@@ -51,6 +46,7 @@ void Column::stop(Player* p){
 //-----------------------------------------------------------------------------
 void Column::bust(){
     content[white] = 0;
+    cState = available;
 };
 //-----------------------------------------------------------------------------
 // ostream function 
@@ -70,5 +66,5 @@ void Column::print(ostream& out) const {
         mycontent.append(" | ");
         mycontent.append(squarecontent);
     }
-    out << "Column:" << colNum << ", State:" << myStates[cState] << ", Squares:" << mycontent << endl;
+    out << "Column:" <<setw(2) <<colNum << ", State:" << myStates[cState] << ", Squares:" << mycontent << endl;
 }

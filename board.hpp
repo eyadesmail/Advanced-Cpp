@@ -22,6 +22,7 @@ public:
     bool move ( int column );
     void stop();
     void bust();
+    int* getcolumns(){return towerColumn;}
     void print( ostream& out) const;
 };
 inline ostream& operator << (ostream& out, Board& b){

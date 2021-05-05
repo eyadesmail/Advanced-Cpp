@@ -1,0 +1,435 @@
+=================================== TEST ONE =============================================
+--------------------------------------------------------
+        Christopher Dowd and Eyad Esmail
+        CS 6626
+        Wed May  5 2021 01:31:20
+----------------------------------------------------------
+Enter Player Name: 
+eyad
+Choose a color: 
+o: Orange
+y: Yellow
+g: Green
+b: Blue
+o
+Column: 2, State:Available, Squares: | ----- | ----- | -----
+Column: 3, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column: 4, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 5, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 6, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 7, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 8, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 9, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:10, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:11, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column:12, State:Available, Squares: | ----- | ----- | -----
+Choose an action: 
+r: roll 
+s: stop 
+x: resign
+r
+Dice a = 1
+Dice b = 1
+Dice c = 6
+Dice d = 6
+choose a pair of dice by writing in the pairing letters; eg: ab
+ab
+contains tower: 0
+contains tower: 0
+Column: 2, State:Available, Squares: | T---- | ----- | -----
+Column: 3, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column: 4, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 5, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 6, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 7, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 8, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 9, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:10, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:11, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column:12, State:Available, Squares: | T---- | ----- | -----
+Choose an action: 
+r: roll 
+s: stop 
+x: resign
+r
+Dice a = 1
+Dice b = 1
+Dice c = 6
+Dice d = 6
+choose a pair of dice by writing in the pairing letters; eg: ab
+ab
+contains tower: 1
+contains tower: 1
+Column: 2, State:Available, Squares: | ----- | T---- | -----
+Column: 3, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column: 4, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 5, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 6, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 7, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 8, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 9, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:10, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:11, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column:12, State:Available, Squares: | ----- | T---- | -----
+Choose an action: 
+r: roll 
+s: stop 
+x: resign
+r
+Dice a = 1
+Dice b = 1
+Dice c = 6
+Dice d = 6
+choose a pair of dice by writing in the pairing letters; eg: ab
+ab
+contains tower: 1
+contains tower: 1
+Column: 2, State:  Pending, Squares: | ----- | ----- | T----
+Column: 3, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column: 4, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 5, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 6, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 7, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 8, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 9, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:10, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:11, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column:12, State:  Pending, Squares: | ----- | ----- | T----
+Choose an action: 
+r: roll 
+s: stop 
+x: resign
+s
+Column: 2, State: Captured, Squares: | ----- | ----- | -O---
+Column: 3, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column: 4, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 5, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 6, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 7, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 8, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 9, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:10, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:11, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column:12, State: Captured, Squares: | ----- | ----- | -O---
+Game ended
+
+Normal termination.
+=================================== TEST TWO =============================================
+--------------------------------------------------------
+        Christopher Dowd and Eyad Esmail
+        CS 6626
+        Wed May  5 2021 01:42:35
+----------------------------------------------------------
+Enter Player Name: 
+e
+Choose a color: 
+o: Orange
+y: Yellow
+g: Green
+b: Blue
+w
+Invalid input. Please try again. 
+Choose a color: 
+o: Orange
+y: Yellow
+g: Green
+b: Blue
+o
+Column: 2, State:Available, Squares: | ----- | ----- | -----
+Column: 3, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column: 4, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 5, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 6, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 7, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 8, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 9, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:10, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:11, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column:12, State:Available, Squares: | ----- | ----- | -----
+Choose an action: 
+r: roll 
+s: stop 
+x: resign
+w
+Invalid input. Please try again. 
+Choose an action: 
+r: roll 
+s: stop 
+x: resign
+r
+Dice a = 1
+Dice b = 1
+Dice c = 6
+Dice d = 6
+choose a pair of dice by writing in the pairing letters; eg: ab
+ww
+Invalid input. Please try again.
+choose a pair of dice by writing in the pairing letters; eg: ab
+ab
+contains tower: 0
+contains tower: 0
+Column: 2, State:Available, Squares: | T---- | ----- | -----
+Column: 3, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column: 4, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 5, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 6, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 7, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 8, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 9, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:10, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:11, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column:12, State:Available, Squares: | T---- | ----- | -----
+Choose an action: 
+r: roll 
+s: stop 
+x: resign
+s
+Column: 2, State:Available, Squares: | -O--- | ----- | -----
+Column: 3, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column: 4, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 5, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 6, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 7, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 8, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 9, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:10, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:11, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column:12, State:Available, Squares: | -O--- | ----- | -----
+=================================== TEST THREE ===========================================
+--------------------------------------------------------
+        Christopher Dowd and Eyad Esmail
+        CS 6626
+        Wed May  5 2021 01:46:12
+----------------------------------------------------------
+Enter Player Name: 
+eyad
+Choose a color: 
+o: Orange
+y: Yellow
+g: Green
+b: Blue
+o
+Column: 2, State:Available, Squares: | ----- | ----- | -----
+Column: 3, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column: 4, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 5, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 6, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 7, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 8, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 9, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:10, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:11, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column:12, State:Available, Squares: | ----- | ----- | -----
+Choose an action: 
+r: roll 
+s: stop 
+x: resign
+r
+Dice a = 1
+Dice b = 1
+Dice c = 6
+Dice d = 6
+choose a pair of dice by writing in the pairing letters; eg: ab
+ab
+contains tower: 0
+contains tower: 0
+Column: 2, State:Available, Squares: | T---- | ----- | -----
+Column: 3, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column: 4, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 5, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 6, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 7, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 8, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 9, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:10, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:11, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column:12, State:Available, Squares: | T---- | ----- | -----
+Choose an action: 
+r: roll 
+s: stop 
+x: resign
+r
+Dice a = 1
+Dice b = 1
+Dice c = 6
+Dice d = 6
+choose a pair of dice by writing in the pairing letters; eg: ab
+ab
+contains tower: 1
+contains tower: 1
+Column: 2, State:Available, Squares: | ----- | T---- | -----
+Column: 3, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column: 4, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 5, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 6, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 7, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 8, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 9, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:10, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:11, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column:12, State:Available, Squares: | ----- | T---- | -----
+Choose an action: 
+r: roll 
+s: stop 
+x: resign
+r
+Dice a = 1
+Dice b = 1
+Dice c = 6
+Dice d = 6
+choose a pair of dice by writing in the pairing letters; eg: ab
+ab
+contains tower: 1
+contains tower: 1
+Column: 2, State:  Pending, Squares: | ----- | ----- | T----
+Column: 3, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column: 4, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 5, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 6, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 7, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 8, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 9, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:10, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:11, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column:12, State:  Pending, Squares: | ----- | ----- | T----
+Choose an action: 
+r: roll 
+s: stop 
+x: resign
+r
+Dice a = 1
+Dice b = 1
+Dice c = 6
+Dice d = 6
+choose a pair of dice by writing in the pairing letters; eg: ab
+ab
+contains tower: 1
+contains tower: 1
+Column: 2, State:  Pending, Squares: | ----- | ----- | T----
+Column: 3, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column: 4, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 5, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 6, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 7, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 8, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 9, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:10, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:11, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column:12, State:  Pending, Squares: | ----- | ----- | T----
+============ WENT BUST. ============
+Column: 2, State:Available, Squares: | ----- | ----- | -----
+Column: 3, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column: 4, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 5, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 6, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 7, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 8, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 9, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:10, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:11, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column:12, State:Available, Squares: | ----- | ----- | -----
+Game ended
+
+Normal termination.
+=================================== TEST FOUR ============================================
+--------------------------------------------------------
+        Christopher Dowd and Eyad Esmail
+        CS 6626
+        Wed May  5 2021 01:47:37
+----------------------------------------------------------
+Enter Player Name: 
+e
+Choose a color: 
+o: Orange
+y: Yellow
+g: Green
+b: Blue
+o
+Column: 2, State:Available, Squares: | ----- | ----- | -----
+Column: 3, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column: 4, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 5, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 6, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 7, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 8, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 9, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:10, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:11, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column:12, State:Available, Squares: | ----- | ----- | -----
+Choose an action: 
+r: roll 
+s: stop 
+x: resign
+r
+Dice a = 1
+Dice b = 1
+Dice c = 6
+Dice d = 6
+choose a pair of dice by writing in the pairing letters; eg: ab
+ab
+contains tower: 0
+contains tower: 0
+Column: 2, State:Available, Squares: | T---- | ----- | -----
+Column: 3, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column: 4, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 5, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 6, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 7, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 8, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 9, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:10, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:11, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column:12, State:Available, Squares: | T---- | ----- | -----
+Choose an action: 
+r: roll 
+s: stop 
+x: resign
+s
+Column: 2, State:Available, Squares: | -O--- | ----- | -----
+Column: 3, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column: 4, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 5, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 6, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 7, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 8, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 9, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:10, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:11, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column:12, State:Available, Squares: | -O--- | ----- | -----
+Game ended
+
+Normal termination.
+=================================== TEST FIVE ============================================
+--------------------------------------------------------
+        Christopher Dowd and Eyad Esmail
+        CS 6626
+        Wed May  5 2021 01:48:13
+----------------------------------------------------------
+Enter Player Name: 
+eyad
+Choose a color: 
+o: Orange
+y: Yellow
+g: Green
+b: Blue
+b
+Column: 2, State:Available, Squares: | ----- | ----- | -----
+Column: 3, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column: 4, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 5, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 6, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 7, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 8, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column: 9, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:10, State:Available, Squares: | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Column:11, State:Available, Squares: | ----- | ----- | ----- | ----- | -----
+Column:12, State:Available, Squares: | ----- | ----- | -----
+Choose an action: 
+r: roll 
+s: stop 
+x: resign
+x
+Player Resigned
+Game ended
+
+Normal termination.

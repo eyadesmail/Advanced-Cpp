@@ -27,7 +27,7 @@ public:
     void roll();
     void stop(Player* pp);
     void resign(Player* pp);
-    int choosepair();
+    int  choosepair();
 };
 
 #endif //CANTSTOP_GAME_HPP

@@ -9,7 +9,7 @@
 #include "player.hpp"
 
 enum State {available, pending, captured };
-const string myStates[] = {"Available","Pending", "Captured"};
+const string myStates[] = {"Available","  Pending", " Captured"};
 
 class Column {
 private:
