@@ -10,6 +10,7 @@
 #include "player.hpp"
 #include "column.hpp"
 #include "game.hpp"
+#include "clist.hpp"
 #define NUM_DICE 4
 
 
@@ -100,13 +101,79 @@ void unitGame(){
     g.oneTurn(g.getPlayer());
     
 }
+void unitList(){
+    ofstream clistfile;
+    clistfile.open("clisttestresult.txt", ios_base::app);
+    if ( !clistfile.is_open()){ cout << "can not open file" << endl;}
+    clistfile << "\n--------------------------------" << endl;
+    clistfile << "-        TEST STARTED          -" << endl;
+    clistfile << "--------------------------------" << endl;
+// Create four dummy Players
+    Player* p1 = new Player("player_o", orange);
+    Player* p2 = new Player("player_y", yellow);
+    Player* p3 = new Player("player_g", green);
+    Player* p4 = new Player("player_b", blue);
+// add Players.
+    CList<Player> c;// player list
+    clistfile << "========= test print empty list===========" << endl;
+    c.printlist(clistfile);
+    clistfile << "==========================================" << endl;
+    clistfile << "========== add players to list ===========" << endl;
+    c.addItem(p1);
+    c.addItem(p2);
+    c.addItem(p3);
+    c.addItem(p4);
+    c.init();
+    c.printlist(clistfile);
+    clistfile << "==========================================" << endl;
+    clistfile << "=========== remove all players ===========" << endl;
+// remove a Player
+    c.remove();
+    c.remove();
+    c.remove();
+    c.remove();
+    c.printlist(clistfile);
+    clistfile << "==========================================" << endl;
+//  After removing all of the players, you can add Players again.
+    clistfile << "=========== add player again =============" << endl;
+    c.addItem(p1);
+    c.addItem(p2);
+    c.addItem(p3);
+    c.addItem(p4);
+    c.printlist(clistfile);
+    clistfile << "==========================================" << endl;
+    clistfile << "========= remove item from middle ========" << endl;
+// remove a Player
+    c.next();
+    c.remove();
+    c.printlist(clistfile);
+    clistfile << "==========================================" << endl;
+// nextPlayer() function can progress around the circle and reach the first player again.
+    clistfile << "============= testing next ===============" << endl;
+    c.printcurrent(clistfile);
+    c.next();
+    c.printcurrent(clistfile);
+    c.next();
+    c.printcurrent(clistfile);
+    c.next();
+    c.printcurrent(clistfile);
+    c.next();
+    c.printcurrent(clistfile);
+    c.next();
+    clistfile << "==========================================" << endl;
+    clistfile << "--------------------------------" << endl;
+    clistfile << "-        TEST COMPLETE         -" << endl;
+    clistfile << "--------------------------------" << endl;
+    clistfile.close();
+}
 //-----------------------------------------------------------------------------
 int main(int argc, char* argv[]) {
     banner();
     //unitColumn();
     //unitDice();
     //unitPlayer();
-    unitGame();
+    //unitGame();
+    unitList();
     bye();
     return 0;
 }

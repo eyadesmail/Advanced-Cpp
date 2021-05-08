@@ -17,6 +17,6 @@ bool Player::wonColumn(int colNum){
 // ostream function 
 void Player::print(ostream& out) const {
     //cout <<"Player::print called\n";
-    out << "Name"<< "    " << "Color"       << "     " << "Score" << endl;
-    out << name  << "    " << colors[color] << "     " <<  score  << endl;
+    //out << "Name"<< "    " << "Color"       << "     " << "Score" << endl;
+    out << left << setw(20)<< name  << setw(10) << colors[color] << setw(7)<<  score  << endl;
 }

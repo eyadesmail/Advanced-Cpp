@@ -1,0 +1,6 @@
+- test print empty list 
+- add 4 players
+- print list
+- remove all players
+- add players again
+- next function can progress around the circle and reach the first player again.

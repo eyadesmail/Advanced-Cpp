@@ -1,0 +1,45 @@
+
+--------------------------------
+-        TEST STARTED          -
+--------------------------------
+========= test print empty list===========
+list is empty
+==========================================
+========== add players to list ===========
+Name                Color     Score  
+player_o            orange    0      
+player_y            yellow    0      
+player_g            green     0      
+player_b            blue      0      
+==========================================
+=========== remove all players ===========
+list is empty
+==========================================
+=========== add player again =============
+Name                Color     Score  
+player_o            orange    0      
+player_y            yellow    0      
+player_g            green     0      
+player_b            blue      0      
+==========================================
+========= remove item from middle ========
+Name                Color     Score  
+player_o            orange    0      
+player_g            green     0      
+player_b            blue      0      
+==========================================
+============= testing next ===============
+current: 
+player_o            orange    0      
+current: 
+player_g            green     0      
+current: 
+player_b            blue      0      
+current: 
+player_o            orange    0      
+current: 
+player_g            green     0      
+==========================================
+--------------------------------
+-        TEST COMPLETE         -
+--------------------------------

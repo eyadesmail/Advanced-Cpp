@@ -4,6 +4,7 @@
 //  Created on 4/17/2021
 */
 #include "game.hpp"
+#include "clist.hpp"
 bool playing = true;
 Game::Game(){}
 //-----------------------------------------------------------------------------
